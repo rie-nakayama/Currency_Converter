@@ -5,7 +5,9 @@ Desktop Tkinter application to calculate difference currency amounts.
 <h2>Description</h2>
 
 Tkinter application that will calculate difference currency amounts based on the current exchange rate. 
+<br>
 Built with Python using the customtkinter library for an improved GUI appearance.
+<br>
 Real-time exchange rates from are fetched from ExchangeRate-API. 
 
 
@@ -21,11 +23,11 @@ Real-time exchange rates from are fetched from ExchangeRate-API.
 <li>customtkinter library</li>
 
 <h2>How to Run</h2>
-Set up venv and install requirements
-Navigate to the project directory and run application
+<li>Set up venv and install requirements</li>
+<li>Navigate to the project directory and run application</li>
 
 <h2>Things to Note</h2>
-Make sure the ExchangeRate-API is latest version
-Currency is converted based by first being converted to USD and then from there being concerted into the users chosen currency so rates do not reflect bank rates
+<li>Make sure the ExchangeRate-API is latest version</li>
+<li>Currency is first converted to USD and then to the users chosen currency. Bank exchange rates are not reflected.</li>
 
 
